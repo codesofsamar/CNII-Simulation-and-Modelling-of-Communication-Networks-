@@ -1,0 +1,23 @@
+file 411660 1461656985                                          
+version 2
+run random-0-20160426-09:49:41-5572
+attr configname random
+attr datetime 20160426-09:49:41
+attr experiment random
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network exercise2
+attr processid 5572
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 0  exercise2.rx  interArrivalTime:vector  ETV
+attr interpolationmode  none
+attr source  arrival
+attr title  "inter-arrival time, vector"
+0	527 411133 3 20000 5.1 9990.228959035168 10000 1.5614554e-005 5.1 9990.2289590352 13385.725532986

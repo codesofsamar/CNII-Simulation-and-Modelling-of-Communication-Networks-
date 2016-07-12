@@ -1,0 +1,27 @@
+file 14016 1464084527                                           
+version 2
+run sim_100s-0-20160524-12:08:47-4744
+attr configname sim_100s
+attr datetime 20160524-12:08:47
+attr experiment sim_100s
+attr inifile omnetpp.ini
+attr iterationvars $simtime=100
+attr iterationvars2 "$simtime=100, $repetition=0"
+attr measurement $simtime=100
+attr network Network
+attr processid 4744
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+attr simtime 100
+
+vector 27  Network.server.ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 28  Network.server.ppp[0].inputHook[0]  packet/sec  ETV
+vector 25  Network.client.ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 26  Network.client.ppp[0].inputHook[0]  packet/sec  ETV
+25	711 3342 84 78487 0 98.789008 94 548.09894490953 18772.919268493 1410515.8055092 22659093563.584
+26	4053 3339 84 78487 0 98.789008 94 1.6312468598498 58.665372714039 4407.7803298732 221279.93783283
+27	7392 3314 66 78301 0 98.588632 94 12354.73052024 703984.47256847 52858819.853209 31853048002218
+28	10706 3310 66 78301 0 98.588632 94 2.9248888542235 58.665372714039 4409.0739718675 221285.83184132

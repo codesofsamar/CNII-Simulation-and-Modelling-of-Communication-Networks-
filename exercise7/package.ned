@@ -1,0 +1,3 @@
+package clientserver;
+
+@license(LGPL);

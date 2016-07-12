@@ -1,0 +1,23 @@
+file 121606 1465074163                                          
+version 2
+run sim_1000s-0-20160604-23:02:33-3832
+attr configname sim_1000s
+attr datetime 20160604-23:02:33
+attr experiment sim_1000s
+attr inifile omnetpp.ini
+attr iterationvars $simtime=1000
+attr iterationvars2 "$simtime=1000, $repetition=0"
+attr measurement $simtime=1000
+attr network Network
+attr processid 3832
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+attr simtime 1000
+
+vector 37  Network.server.ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 38  Network.server.ppp[0].inputHook[0]  packet/sec  ETV
+37	581 58993 1018 1102885 0 998.842630970538 990 44304 81120 62551008 3993050880000
+38	59574 60634 1018 1102885 0 998.842630970538 990 71 130 100242 10255000

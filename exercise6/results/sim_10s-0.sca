@@ -1,0 +1,455 @@
+version 2
+run sim_10s-0-20160531-11:41:09-3720
+attr configname sim_10s
+attr datetime 20160531-11:41:09
+attr experiment sim_10s
+attr inifile omnetpp.ini
+attr iterationvars $simtime=10
+attr iterationvars2 "$simtime=10, $repetition=0"
+attr measurement $simtime=10
+attr network Network
+attr processid 3720
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+attr simtime 10
+
+scalar . 	simtime 	10
+scalar Network.client.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar Network.client.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar Network.client.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar Network.client.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Network.client.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar Network.client.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar Network.client.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar Network.client.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Network.client.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Network.client.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Network.client.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Network.client.ppp[0].inputHook[0] 	duration 	10.000802478558
+scalar Network.client.ppp[0].inputHook[0] 	"total packets" 	0
+scalar Network.client.ppp[0].inputHook[0] 	"total bits" 	0
+scalar Network.client.ppp[0].inputHook[0] 	"avg throughput (bit/s)" 	0
+scalar Network.client.ppp[0].inputHook[0] 	"avg packets/s" 	0
+statistic Network.client.ppp[0].queue 	queueingTime:histogram
+field count 988
+field mean 3.0531744066802e-005
+field stddev 0.00012532658535869
+field sum 0.030165363138
+field sqrsum 1.642356635571e-005
+field min 0
+field max 0.001101508813
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.000245157154	0
+bin	-0.00021246953346667	0
+bin	-0.00017978191293333	0
+bin	-0.0001470942924	0
+bin	-0.00011440667186667	0
+bin	-8.1719051333333e-005	0
+bin	-4.90314308e-005	0
+bin	-1.6343810266667e-005	912
+bin	1.6343810266667e-005	4
+bin	4.90314308e-005	4
+bin	8.1719051333333e-005	4
+bin	0.00011440667186667	1
+bin	0.0001470942924	4
+bin	0.00017978191293333	0
+bin	0.00021246953346667	5
+bin	0.000245157154	2
+bin	0.00027784477453333	3
+bin	0.00031053239506667	3
+bin	0.0003432200156	7
+bin	0.00037590763613333	3
+bin	0.00040859525666667	4
+bin	0.0004412828772	2
+bin	0.00047397049773333	8
+bin	0.00050665811826667	4
+bin	0.0005393457388	5
+bin	0.00057203335933333	3
+bin	0.00060472097986667	2
+bin	0.0006374086004	1
+bin	0.00067009622093333	2
+bin	0.00070278384146667	0
+bin	0.000735471462	5
+scalar Network.client.ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Network.client.ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Network.client.ppp[0].queue 	queueLength:max 	2
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Network.client.ppp[0].queue 	queueLength:timeavg 	0.003016294262653
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar Network.client.ppp[0].queue 	rcvdPk:count 	988
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Network.client.ppp[0].queue 	rcvdPk:sum(packetBytes) 	77064
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Network.client.ppp[0].ppp 	rcvdPkFromHL:count 	988
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar Network.client.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	77064
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar Network.client.ppp[0].ppp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Network.client.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Network.client.ppp[0].ppp 	txPk:count 	988
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar Network.client.ppp[0].ppp 	txPk:sum(packetBytes) 	83980
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Network.client.ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Network.client.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Network.client.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Network.client.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Network.client.ppp[0].ppp 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Network.client.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Network.client.ppp[0].ppp 	txState:timeavg 	0.067178609060668
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar Network.client.udpApp[0] 	"packets sent" 	989
+scalar Network.client.udpApp[0] 	"packets received" 	0
+scalar Network.client.udpApp[0] 	sentPk:count 	989
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Network.client.udpApp[0] 	sentPk:sum(packetBytes) 	49450
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Network.client.udpApp[0] 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Network.client.udpApp[0] 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Network.client.udpApp[0] 	rcvdPkLifetime:stats
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "received packet lifetime, stats"
+attr unit  s
+scalar Network.client.udp 	droppedPkBadChecksum:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (checksum error), count"
+scalar Network.client.udp 	droppedPkWrongPort:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (wrong port), count"
+scalar Network.client.udp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr title  "packets passed up, count"
+scalar Network.client.udp 	sentPk:count 	988
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Network.client.udp 	sentPk:sum(packetBytes) 	57304
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Network.client.udp 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Network.client.udp 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar Network.server.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar Network.server.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar Network.server.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar Network.server.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Network.server.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar Network.server.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar Network.server.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar Network.server.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Network.server.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Network.server.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Network.server.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Network.server.ppp[0].inputHook[0] 	duration 	10.000802478558
+scalar Network.server.ppp[0].inputHook[0] 	"total packets" 	962
+scalar Network.server.ppp[0].inputHook[0] 	"total bits" 	600288
+scalar Network.server.ppp[0].inputHook[0] 	"avg throughput (bit/s)" 	60023.983204051
+scalar Network.server.ppp[0].inputHook[0] 	"avg packets/s" 	96.192280775723
+statistic Network.server.ppp[0].queue 	queueingTime:histogram
+field count 0
+field mean nan
+field stddev nan
+field sum 0
+field sqrsum 0
+field min nan
+field max nan
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-018	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Network.server.ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Network.server.ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Network.server.ppp[0].queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Network.server.ppp[0].queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar Network.server.ppp[0].queue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Network.server.ppp[0].queue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Network.server.ppp[0].ppp 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar Network.server.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar Network.server.ppp[0].ppp 	passedUpPk:count 	962
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Network.server.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	75036
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Network.server.ppp[0].ppp 	txPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar Network.server.ppp[0].ppp 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Network.server.ppp[0].ppp 	droppedPkBitError:count 	1
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Network.server.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	85
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Network.server.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Network.server.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Network.server.ppp[0].ppp 	rxPkOk:count 	962
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Network.server.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	81770
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Network.server.ppp[0].ppp 	txState:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar Network.server.udpApp[0] 	rcvdPk:count 	962
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Network.server.udpApp[0] 	rcvdPk:sum(packetBytes) 	48100
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Network.server.udpApp[0] 	endToEndDelay:histogram
+field count 962
+field mean 0.20071124889041
+field stddev 0.00012690502087934
+field sum 193.08422143257
+field sqrsum 38.754190701558
+field min 0.20068
+field max 0.201781508813
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	0.200434842846	0
+bin	0.20046753046653	0
+bin	0.20050021808707	0
+bin	0.2005329057076	0
+bin	0.20056559332813	0
+bin	0.20059828094867	0
+bin	0.2006309685692	0
+bin	0.20066365618973	888
+bin	0.20069634381027	3
+bin	0.2007290314308	4
+bin	0.20076171905133	3
+bin	0.20079440667187	1
+bin	0.2008270942924	4
+bin	0.20085978191293	0
+bin	0.20089246953347	5
+bin	0.200925157154	2
+bin	0.20095784477453	3
+bin	0.20099053239507	3
+bin	0.2010232200156	7
+bin	0.20105590763613	3
+bin	0.20108859525667	4
+bin	0.2011212828772	2
+bin	0.20115397049773	8
+bin	0.20118665811827	4
+bin	0.2012193457388	5
+bin	0.20125203335933	3
+bin	0.20128472097987	2
+bin	0.2013174086004	1
+bin	0.20135009622093	2
+bin	0.20138278384147	0
+bin	0.201415471462	5
+scalar Network.server.udp 	droppedPkBadChecksum:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (checksum error), count"
+scalar Network.server.udp 	droppedPkWrongPort:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (wrong port), count"
+scalar Network.server.udp 	passedUpPk:count 	962
+attr interpolationmode  none
+attr title  "packets passed up, count"
+scalar Network.server.udp 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Network.server.udp 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Network.server.udp 	rcvdPk:count 	962
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Network.server.udp 	rcvdPk:sum(packetBytes) 	55796
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"

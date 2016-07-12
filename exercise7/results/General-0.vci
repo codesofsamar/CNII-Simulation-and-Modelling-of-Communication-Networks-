@@ -1,0 +1,227 @@
+file 1854412 1467055911                                         
+version 2
+run General-0-20160627-21:12:47-4204
+attr configname General
+attr datetime 20160627-21:12:47
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $simtime=600
+attr iterationvars2 "$simtime=600, $repetition=0"
+attr measurement $simtime=600
+attr network Network
+attr processid 4204
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+attr simtime 600
+
+vector 13900  Network.routerNets[0].clientNets[0].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13901  Network.routerNets[0].clientNets[0].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13904  Network.routerNets[0].clientNets[1].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13905  Network.routerNets[0].clientNets[1].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13908  Network.routerNets[0].clientNets[2].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13909  Network.routerNets[0].clientNets[2].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13912  Network.routerNets[0].clientNets[3].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13913  Network.routerNets[0].clientNets[3].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13916  Network.routerNets[0].clientNets[4].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13917  Network.routerNets[0].clientNets[4].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13920  Network.routerNets[1].clientNets[0].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13921  Network.routerNets[1].clientNets[0].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13924  Network.routerNets[1].clientNets[1].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13925  Network.routerNets[1].clientNets[1].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13928  Network.routerNets[1].clientNets[2].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13929  Network.routerNets[1].clientNets[2].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13932  Network.routerNets[1].clientNets[3].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13933  Network.routerNets[1].clientNets[3].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13936  Network.routerNets[1].clientNets[4].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13937  Network.routerNets[1].clientNets[4].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13940  Network.routerNets[2].clientNets[0].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13941  Network.routerNets[2].clientNets[0].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13944  Network.routerNets[2].clientNets[1].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13945  Network.routerNets[2].clientNets[1].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13948  Network.routerNets[2].clientNets[2].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13949  Network.routerNets[2].clientNets[2].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13952  Network.routerNets[2].clientNets[3].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13953  Network.routerNets[2].clientNets[3].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13956  Network.routerNets[2].clientNets[4].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13957  Network.routerNets[2].clientNets[4].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13960  Network.routerNets[3].clientNets[0].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13961  Network.routerNets[3].clientNets[0].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13964  Network.routerNets[3].clientNets[1].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13965  Network.routerNets[3].clientNets[1].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13968  Network.routerNets[3].clientNets[2].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13969  Network.routerNets[3].clientNets[2].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13972  Network.routerNets[3].clientNets[3].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13973  Network.routerNets[3].clientNets[3].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13976  Network.routerNets[3].clientNets[4].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13977  Network.routerNets[3].clientNets[4].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13980  Network.routerNets[4].clientNets[0].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13981  Network.routerNets[4].clientNets[0].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13984  Network.routerNets[4].clientNets[1].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13985  Network.routerNets[4].clientNets[1].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13988  Network.routerNets[4].clientNets[2].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13989  Network.routerNets[4].clientNets[2].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13992  Network.routerNets[4].clientNets[3].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13993  Network.routerNets[4].clientNets[3].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 13996  Network.routerNets[4].clientNets[4].clients[0].ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 13997  Network.routerNets[4].clientNets[4].clients[0].ppp[0].outputHook[0]  packet/sec  ETV
+vector 14002  Network.server.ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 14003  Network.server.ppp[0].inputHook[0]  packet/sec  ETV
+vector 14000  Network.server.ppp[0].outputHook[0]  "thruput (bit/sec)"  ETV
+vector 14001  Network.server.ppp[0].outputHook[0]  packet/sec  ETV
+vector 13902  Network.routerNets[0].clientNets[0].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13903  Network.routerNets[0].clientNets[0].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13922  Network.routerNets[1].clientNets[0].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13923  Network.routerNets[1].clientNets[0].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13942  Network.routerNets[2].clientNets[0].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13943  Network.routerNets[2].clientNets[0].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13962  Network.routerNets[3].clientNets[0].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13963  Network.routerNets[3].clientNets[0].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13982  Network.routerNets[4].clientNets[0].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13983  Network.routerNets[4].clientNets[0].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13906  Network.routerNets[0].clientNets[1].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13907  Network.routerNets[0].clientNets[1].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13926  Network.routerNets[1].clientNets[1].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13927  Network.routerNets[1].clientNets[1].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13946  Network.routerNets[2].clientNets[1].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13947  Network.routerNets[2].clientNets[1].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13966  Network.routerNets[3].clientNets[1].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13967  Network.routerNets[3].clientNets[1].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13986  Network.routerNets[4].clientNets[1].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13987  Network.routerNets[4].clientNets[1].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13910  Network.routerNets[0].clientNets[2].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13911  Network.routerNets[0].clientNets[2].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13930  Network.routerNets[1].clientNets[2].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13931  Network.routerNets[1].clientNets[2].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13950  Network.routerNets[2].clientNets[2].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13951  Network.routerNets[2].clientNets[2].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13970  Network.routerNets[3].clientNets[2].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13971  Network.routerNets[3].clientNets[2].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13990  Network.routerNets[4].clientNets[2].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13991  Network.routerNets[4].clientNets[2].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13914  Network.routerNets[0].clientNets[3].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13915  Network.routerNets[0].clientNets[3].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13934  Network.routerNets[1].clientNets[3].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13935  Network.routerNets[1].clientNets[3].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13954  Network.routerNets[2].clientNets[3].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13955  Network.routerNets[2].clientNets[3].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13974  Network.routerNets[3].clientNets[3].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13975  Network.routerNets[3].clientNets[3].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13994  Network.routerNets[4].clientNets[3].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13995  Network.routerNets[4].clientNets[3].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13918  Network.routerNets[0].clientNets[4].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13919  Network.routerNets[0].clientNets[4].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13938  Network.routerNets[1].clientNets[4].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13939  Network.routerNets[1].clientNets[4].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13958  Network.routerNets[2].clientNets[4].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13959  Network.routerNets[2].clientNets[4].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13978  Network.routerNets[3].clientNets[4].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13979  Network.routerNets[3].clientNets[4].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+vector 13998  Network.routerNets[4].clientNets[4].clients[0].ppp[0].inputHook[0]  "thruput (bit/sec)"  ETV
+vector 13999  Network.routerNets[4].clientNets[4].clients[0].ppp[0].inputHook[0]  packet/sec  ETV
+13900	11122 15320 62397 57465431 0 598 599 31360 34592 19233312 617654641664
+13901	26442 13523 62397 57465431 0 598 599 49 57 30135 1516779
+13902	39965 21602 62999 57549641 0 598.782586592 597 25600 69760 20500032 741564752384
+13903	61567 19811 62999 57549641 0 598.782586592 597 27 87 29938 1509870
+13904	81378 15320 62398 57465432 0 598 599 31360 34912 19336992 624432722944
+13905	96698 13523 62398 57465432 0 598 599 49 56 30459 1550511
+13906	110221 21731 63029 57469186 0 598.033406191977 594 26240 70400 22889584 975119267072
+13907	131952 19949 63029 57469186 0 598.033406191977 594 26 81 29854 1514292
+13908	151901 15320 62399 57465433 0 598 599 31360 32000 19167360 613335449600
+13909	167221 13523 62399 57465433 0 598 599 49 50 29949 1497401
+13910	180744 21533 63059 57466161 0 598.002725792 597 26240 33280 19156480 614766182400
+13911	202277 19742 63059 57466161 0 598.002725792 597 41 52 29932 1500894
+13912	222019 15320 62400 57465434 0 598 599 31360 35552 19383712 627496571904
+13913	237339 13523 62400 57465434 0 598 599 49 56 30595 1564721
+13914	250862 21791 63089 57490046 0 598.227170391935 594 26240 69760 23825808 1063662573440
+13915	272653 20009 63089 57490046 0 598.227170391935 594 26 82 29723 1504393
+13916	292662 15320 62401 57465435 0 598 599 31360 34880 19264352 619681035264
+13917	307982 13523 62401 57465435 0 598 599 49 57 30242 1527928
+13918	321505 21666 63119 57564586 0 598.9044630956 596 26240 69760 21304960 821062039680
+13919	343171 19878 63119 57564586 0 598.9044630956 596 26 86 29872 1507636
+13920	363049 15320 62402 57465436 0 598 599 31360 35200 19485792 634160456704
+13921	378369 13523 62402 57465436 0 598 599 49 56 30924 1599030
+13922	391892 21885 63005 57483534 0 598.145383823471 591 26240 69760 26265912 1302436382784
+13923	413777 20112 63005 57483534 0 598.145383823471 591 26 83 29645 1514767
+13924	433889 15320 62403 57465437 0 598 599 31360 35200 19659552 645509141504
+13925	449209 13523 62403 57465437 0 598 599 49 56 31457 1654497
+13926	462732 22033 63035 57536713 0 598.662656888 587 26240 69760 30229952 1689567311744
+13927	484765 20272 63035 57536713 0 598.662656888 587 26 89 29676 1549342
+13928	505037 15320 62404 57465438 0 598 599 31360 32000 19167360 613335449600
+13929	520357 13523 62404 57465438 0 598 599 49 50 29949 1497401
+13930	533880 21556 63065 57491679 0 598.242726488 597 26240 33280 19165440 615345356800
+13931	555436 19765 63065 57491679 0 598.242726488 597 41 52 29946 1502308
+13932	575201 15320 62405 57465439 0 598 599 31360 32000 19167360 613335449600
+13933	590521 13523 62405 57465439 0 598 599 49 50 29949 1497401
+13934	604044 21501 63095 57558108 0 598.862796088 598 26240 33280 19184000 615501414400
+13935	625545 19707 63095 57558108 0 598.862796088 598 41 52 29975 1502689
+13936	645252 15320 62406 57465440 0 598 599 31360 35232 19347552 625132033024
+13937	660572 13523 62406 57465440 0 598 599 49 56 30467 1551335
+13938	674095 21694 63125 57554785 0 598.711357495462 594 26240 69760 23003912 986069850304
+13939	695789 19912 63125 57554785 0 598.711357495462 594 34 91 30013 1535025
+13940	715701 15320 62407 57465441 0 598 599 31360 34912 19196832 615268537344
+13941	731021 13523 62407 57465441 0 598 599 49 56 30031 1505957
+13942	744544 21593 63011 57466121 0 598.002587984 596 26240 69760 19727360 671652441728
+13943	766137 19805 63011 57466121 0 598.002587984 596 35 79 29915 1505825
+13944	785942 15320 62408 57465442 0 598 599 31360 32000 19167360 613335449600
+13945	801262 13523 62408 57465442 0 598 599 49 50 29949 1497401
+13946	814785 21557 63041 57470379 0 598.023521248734 597 26240 32640 19158400 614886195200
+13947	836342 19766 63041 57470379 0 598.023521248734 597 41 51 29935 1501187
+13948	856108 15320 62409 57465443 0 598 599 31360 35232 19483552 634017793024
+13949	871428 13523 62409 57465443 0 598 599 49 56 30897 1596155
+13950	884951 21848 63071 57547850 0 598.644836374588 591 26240 69760 26110896 1288995117952
+13951	906799 20075 63071 57547850 0 598.644836374588 591 29 88 29765 1526447
+13952	926874 15320 62410 57465444 0 598 599 31360 35232 19569952 639660442624
+13953	942194 13523 62410 57465444 0 598 599 49 56 31157 1623159
+13954	955717 22024 63101 57491694 0 598.242796784 589 26240 69760 28026920 1473060269888
+13955	977741 20257 63101 57491694 0 598.242796784 589 26 90 29909 1553865
+13956	997998 15320 62411 57465445 0 598 599 31360 35232 19434912 630853428224
+13957	1013318 13523 62411 57465445 0 598 599 49 56 30745 1580353
+13958	1026841 21808 63131 57504630 0 598.330762430593 592 26240 70400 24968448 1176349691264
+13959	1048649 20032 63131 57504630 0 598.330762430593 592 26 90 29828 1529712
+13960	1068681 15320 62412 57465446 0 598 599 31360 32000 19167360 613335449600
+13961	1084001 13523 62412 57465446 0 598 599 49 50 29949 1497401
+13962	1097524 21112 63017 57489580 0 598.203100856685 597 26240 32640 19160320 615015219200
+13963	1118636 19321 63017 57489580 0 598.203100856685 597 41 51 29938 1501502
+13964	1137957 15320 62413 57465447 0 598 599 31360 35232 19463072 632665703424
+13965	1153277 13523 62413 57465447 0 598 599 49 56 30853 1591561
+13966	1166800 21540 63047 57519499 0 598.50265828 591 26240 69760 25865032 1266269482944
+13967	1188340 19767 63047 57519499 0 598.50265828 591 22 84 29896 1540146
+13968	1208107 15320 62414 57465448 0 598 599 31360 32000 19167360 613335449600
+13969	1223427 13523 62414 57465448 0 598 599 49 50 29949 1497401
+13970	1236950 21036 63077 57478752 0 598.12272788 597 26240 33280 19159040 614931660800
+13971	1257986 19245 63077 57478752 0 598.12272788 597 41 52 29936 1501298
+13972	1277231 15320 62415 57465449 0 598 599 31360 32000 19167360 613335449600
+13973	1292551 13523 62415 57465449 0 598 599 49 50 29949 1497401
+13974	1306074 21112 63107 57493985 0 598.244941061967 597 26240 33920 19160960 615061504000
+13975	1327186 19321 63107 57493985 0 598.244941061967 597 41 53 29939 1501615
+13976	1346507 15320 62416 57465450 0 598 599 31360 35232 19352032 625419572224
+13977	1361827 13523 62416 57465450 0 598 599 49 56 30496 1554388
+13978	1375350 21380 63137 57538985 0 598.68286708 594 26240 69400 23167504 1002070914816
+13979	1396730 19598 63137 57538985 0 598.68286708 594 22 86 29859 1518665
+13980	1416328 15320 62417 57465451 0 598 599 31360 34880 19497952 634954609664
+13981	1431648 13523 62417 57465451 0 598 599 49 56 30952 1601874
+13982	1445171 21903 63023 57475736 0 597.975788551986 591 26240 70400 26470512 1324378548224
+13983	1467074 20130 63023 57475736 0 597.975788551986 591 26 87 29565 1503339
+13984	1487204 15320 62418 57465452 0 598 599 31360 34592 19258912 619324376064
+13985	1502524 13523 62418 57465452 0 598 599 49 56 30225 1526175
+13986	1516047 21670 63053 57537258 0 598.667369710779 596 26240 69400 21155240 806363533888
+13987	1537717 19882 63053 57537258 0 598.667369710779 596 26 85 29790 1500116
+13988	1557599 15320 62419 57465453 0 598 599 31360 32000 19167360 613335449600
+13989	1572919 13523 62419 57465453 0 598 599 49 50 29949 1497401
+13990	1586442 21533 63083 57549781 0 598.782728576 598 26240 32640 19181440 615333478400
+13991	1607975 19739 63083 57549781 0 598.782728576 598 41 51 29971 1502279
+13992	1627714 15320 62420 57465454 0 598 599 31360 32000 19167360 613335449600
+13993	1643034 13523 62420 57465454 0 598 599 49 50 29949 1497401
+13994	1656557 21583 63113 57508873 0 598.402798176 597 26240 33280 19169280 615591936000
+13995	1678140 19792 63113 57508873 0 598.402798176 597 41 52 29952 1502910
+13996	1697932 15320 62421 57465455 0 598 599 31360 32000 19167360 613335449600
+13997	1713252 13523 62421 57465455 0 598 599 49 50 29949 1497401
+13998	1726775 21637 63143 57556449 0 598.844258791322 597 26240 32640 19181440 616379596800
+13999	1748412 19846 63143 57556449 0 598.844258791322 597 41 51 29971 1504833
+14000	1768258 22494 62497 57465572 0 598.001293296 599 778272 9499208 3678807872 2.5562272165491e+016
+14001	1790752 20701 62497 57465572 0 598.001293296 599 1133 2304 1138036 2206227586
+14002	1811453 22258 62490 57465565 0 598.001293296 599 722912 1139936 607178496 6.2027121905459e+014
+14003	1833711 20701 62490 57465565 0 598.001293296 599 1130 2267 1135407 2196075743
